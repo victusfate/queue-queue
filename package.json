@@ -1,0 +1,23 @@
+{
+  "name": "queue-queue",
+  "version": "0.0.0",
+  "description": "simplest possible queue which squashes intermediate events, yet guarantees at least one pending action is taken when applicable",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:victusfate/queue-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Mark Essel",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/victusfate/queue-queue/issues"
+  }
+}
